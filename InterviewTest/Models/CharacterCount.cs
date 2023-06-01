@@ -2,7 +2,7 @@
 {
     public class CharacterCount
     {
-        public char Characacter { get; set; }
+        public char Character { get; set; }
         public int Count { get; set; }
     }
 }

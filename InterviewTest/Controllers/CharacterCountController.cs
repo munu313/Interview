@@ -8,19 +8,17 @@ namespace InterviewTest.Controllers
     [Route("[controller]")]
     public class CharacterCountController : ControllerBase
     {
-      
-
-        private readonly ILogger<CharacterCountController> _logger;
-        static readonly ICountCharacterWord charword = new CountChacterInWord();
-        public CharacterCountController(ILogger<CharacterCountController> logger)
+              
+        static readonly ICountCharacterWord charword = new CountCharacterInWord();
+        public CharacterCountController()
         {
-            _logger = logger;
+            
         }
 
         [HttpGet(Name = "GetCharacterCount")]
-        public NumberofCharacterResponse Get([FromQuery] string input)
+        public async Task<NumberofCharacterResponse> Get([FromQuery] string input)
         {
-           NumberofCharacterResponse chresponse= charword.GetChacterCounts(input);
+           NumberofCharacterResponse chresponse= await charword.GetChacterCounts(input);
            return chresponse;
         }
     }
