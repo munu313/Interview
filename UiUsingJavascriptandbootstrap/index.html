@@ -38,6 +38,9 @@
 
         async function getapicharcount() {
 
+            try
+            {
+
             var inputword = document.getElementById('txtinputword').value;
             if (inputword == "") {
                 alert("Please Enter Word or Senetnce");
@@ -50,7 +53,13 @@
             api_urlcharcount.searchParams.set('inputWord', inputword);
             const response = await fetch(api_urlcharcount);
             var data = await response.json();
+
             show(data);
+            }
+            catch(e)
+            {
+                alert("Api not Availabe pleae try later");
+            }
         }
         function cleardata()
         {
