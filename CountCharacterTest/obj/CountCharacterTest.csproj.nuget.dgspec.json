@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MUNAVVIR\\source\\repos\\InterviewTest\\CountCharacterTest\\CountCharacterTest.csproj": {}
+    "D:\\Interview\\Interview\\CountCharacterTest\\CountCharacterTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MUNAVVIR\\source\\repos\\InterviewTest\\CountCharacterTest\\CountCharacterTest.csproj": {
+    "D:\\Interview\\Interview\\CountCharacterTest\\CountCharacterTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MUNAVVIR\\source\\repos\\InterviewTest\\CountCharacterTest\\CountCharacterTest.csproj",
+        "projectUniqueName": "D:\\Interview\\Interview\\CountCharacterTest\\CountCharacterTest.csproj",
         "projectName": "CountCharacterTest",
-        "projectPath": "C:\\Users\\MUNAVVIR\\source\\repos\\InterviewTest\\CountCharacterTest\\CountCharacterTest.csproj",
+        "projectPath": "D:\\Interview\\Interview\\CountCharacterTest\\CountCharacterTest.csproj",
         "packagesPath": "C:\\Users\\MUNAVVIR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MUNAVVIR\\source\\repos\\InterviewTest\\CountCharacterTest\\obj\\",
+        "outputPath": "D:\\Interview\\Interview\\CountCharacterTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\MUNAVVIR\\source\\repos\\InterviewTest\\InterviewTest\\InterviewTest.csproj": {
-                "projectPath": "C:\\Users\\MUNAVVIR\\source\\repos\\InterviewTest\\InterviewTest\\InterviewTest.csproj"
+              "D:\\Interview\\Interview\\InterviewTest\\InterviewTest.csproj": {
+                "projectPath": "D:\\Interview\\Interview\\InterviewTest\\InterviewTest.csproj"
               }
             }
           }
@@ -92,14 +92,14 @@
         }
       }
     },
-    "C:\\Users\\MUNAVVIR\\source\\repos\\InterviewTest\\InterviewTest\\InterviewTest.csproj": {
+    "D:\\Interview\\Interview\\InterviewTest\\InterviewTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MUNAVVIR\\source\\repos\\InterviewTest\\InterviewTest\\InterviewTest.csproj",
+        "projectUniqueName": "D:\\Interview\\Interview\\InterviewTest\\InterviewTest.csproj",
         "projectName": "InterviewTest",
-        "projectPath": "C:\\Users\\MUNAVVIR\\source\\repos\\InterviewTest\\InterviewTest\\InterviewTest.csproj",
+        "projectPath": "D:\\Interview\\Interview\\InterviewTest\\InterviewTest.csproj",
         "packagesPath": "C:\\Users\\MUNAVVIR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MUNAVVIR\\source\\repos\\InterviewTest\\InterviewTest\\obj\\",
+        "outputPath": "D:\\Interview\\Interview\\InterviewTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

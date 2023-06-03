@@ -46,8 +46,8 @@
             }
             var api_urlcharcount = new URL(Constparturl+"CharacterCount?");
 
-            api_urlcharcount.searchParams.append('input', inputword);
-            api_urlcharcount.searchParams.set('input', inputword);
+            api_urlcharcount.searchParams.append('inputWord', inputword);
+            api_urlcharcount.searchParams.set('inputWord', inputword);
             const response = await fetch(api_urlcharcount);
             var data = await response.json();
             show(data);

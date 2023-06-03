@@ -796,11 +796,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MUNAVVIR\\source\\repos\\InterviewTest\\InterviewTest\\InterviewTest.csproj",
+      "projectUniqueName": "D:\\Interview\\Interview\\InterviewTest\\InterviewTest.csproj",
       "projectName": "InterviewTest",
-      "projectPath": "C:\\Users\\MUNAVVIR\\source\\repos\\InterviewTest\\InterviewTest\\InterviewTest.csproj",
+      "projectPath": "D:\\Interview\\Interview\\InterviewTest\\InterviewTest.csproj",
       "packagesPath": "C:\\Users\\MUNAVVIR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MUNAVVIR\\source\\repos\\InterviewTest\\InterviewTest\\obj\\",
+      "outputPath": "D:\\Interview\\Interview\\InterviewTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
