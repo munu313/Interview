@@ -4,6 +4,6 @@ namespace InterviewTest.Abstract
 {
     public interface ICountCharacterWord
     {
-      public  Task<NumberofCharacterResponse>  GetChacterCounts(string input);
+      public  Task<NumberofCharacterResponse>  GetChacterCounts(string inputword);
     }
 }

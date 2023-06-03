@@ -9,16 +9,16 @@ namespace InterviewTest.Controllers
     public class CharacterCountController : ControllerBase
     {
               
-        static readonly ICountCharacterWord charword = new CountCharacterInWord();
+        ICountCharacterWord charword = new CountCharacterInWord();
         public CharacterCountController()
         {
             
         }
 
         [HttpGet(Name = "GetCharacterCount")]
-        public async Task<NumberofCharacterResponse> Get([FromQuery] string input)
+        public async Task<NumberofCharacterResponse> Get([FromQuery] string inputWord)
         {
-           NumberofCharacterResponse chresponse= await charword.GetChacterCounts(input);
+           NumberofCharacterResponse chresponse= await charword.GetChacterCounts(inputWord);
            return chresponse;
         }
     }

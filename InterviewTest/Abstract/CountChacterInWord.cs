@@ -6,23 +6,23 @@ namespace InterviewTest.Abstract
     public class CountCharacterInWord: ICountCharacterWord
     {
        
-      async  Task<NumberofCharacterResponse> ICountCharacterWord.GetChacterCounts(string input)
+      async  Task<NumberofCharacterResponse> ICountCharacterWord.GetChacterCounts(string inputword)
         {
             try
             {
-                string Input = input.Replace(" ", string.Empty);
+                string inputWord = inputword.Replace(" ", string.Empty);
                 NumberofCharacterResponse response = new NumberofCharacterResponse()
                 {
                     CharandCount = new List<CharacterCount>()
                 };
 
-                while (Input.Length > 0)
+                while (inputWord.Length > 0)
                 {
 
                     int count = 0;
-                    for (int j = 0; j < Input.Length; j++)
+                    for (int j = 0; j < inputWord.Length; j++)
                     {
-                        if (Input[0] == Input[j])
+                        if (inputWord[0] == inputWord[j])
                         {
                             count++;
                         }
@@ -31,10 +31,10 @@ namespace InterviewTest.Abstract
 
                     response.CharandCount.Add(new CharacterCount()
                     {
-                        Character = Input[0],
+                        Character = inputWord[0],
                         Count = count
                     });
-                    Input = Input.Replace(Input[0].ToString(), string.Empty);
+                    inputWord = inputWord.Replace(inputWord[0].ToString(), string.Empty);
 
                 }
 
